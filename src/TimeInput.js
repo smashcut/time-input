@@ -85,7 +85,8 @@ var TimeInput = CreateReactClass({
     event.preventDefault()
     var start = caret.start(this.input)
     var value = this.props.value
-    var amount = event.which === 38 ? 1 : -1
+    var delta = start < 3 ? 1 : 30
+    var amount = event.which === 38 ? delta : -delta
     if (event.shiftKey) {
       amount *= 2
       if (event.metaKey) amount *= 2
