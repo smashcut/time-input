@@ -15,7 +15,13 @@
     "Matt Livingston <matt.l.livingston@gmail.com>"
   ],
   "license": "UNLICENSED",
-  "dependencies": {},
+  "dependencies": {
+    "create-react-class": "^15.5.3",
+    "react": "^15.5.4",
+    "react-addons-test-utils": "^15.5.1",
+    "react-dom": "^15.5.4",
+    "react-test-utils": "0.0.1"
+  },
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-core": "^6.5.2",
@@ -25,7 +31,6 @@
     "babel-preset-react-hmre": "^1.1.0",
     "babel-register": "^6.5.2",
     "chai": "^3.5.0",
-    "create-react-class": "^15.5.3",
     "express": "^4.13.4",
     "isparta": "^4.0.0",
     "isparta-loader": "^2.0.0",
@@ -41,10 +46,6 @@
     "mocha": "^2.4.5",
     "prop-types": "^15.5.10",
     "raw-loader": "^0.5.1",
-    "react": "^15.5.4",
-    "react-addons-test-utils": "^15.5.1",
-    "react-dom": "^15.5.4",
-    "react-test-utils": "0.0.1",
     "source-map-loader": "^0.1.5",
     "standard": "^6.0.7",
     "style-loader": "^0.13.0",
